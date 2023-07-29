@@ -1,6 +1,6 @@
 class Solution {
 	public int[] solution(int numer1, int denom1, int numer2, int denom2) {
-		int molecularSum = numer1*denom2+numer2*denom1;
+		int molecularSum = numer1*denom2 + numer2*denom1;
 		int denominator = denom1*denom2;
 
 		int commonFactor = 1;
