@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        for(int i=0; i<n; i++) {
+            int level = sc.nextInt();
+            
+            if(level == 300) {
+                System.out.print(1);
+            } else if(level >= 275 && level < 300) {
+                System.out.print(2);
+            } else if(level >= 250 && level < 275) {
+                System.out.print(3);
+            } else {
+                System.out.print(4);
+            }
+            
+            if(i != n-1) {
+                System.out.print(" ");
+            }
+        }
+    }
+    
+}
